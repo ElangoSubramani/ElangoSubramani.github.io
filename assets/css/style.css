@@ -10,7 +10,6 @@
 --------------------------------------------------------------*/
 
 .contact__input {
-  
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -21,6 +20,11 @@
   margin-bottom: var(--mb-4);
   background-color: #08213a;
   color: white; /* Text color */
+  transition: background-color 0.3s; /* Adding transition for smooth color change */
+}
+
+.contact__input:focus {
+  background-color: #08213a;
 }
 
 .contact__button {
