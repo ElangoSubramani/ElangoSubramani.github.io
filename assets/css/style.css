@@ -8,6 +8,37 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.contact__input {
+  
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+  background-color: #08213a;
+  color: white; /* Text color */
+}
+
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  height: 50px;
+  width: 70px;
+  margin-left: auto;
+  background-color:#29a645;
+  color: white; /* Text color */
+}
+
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
