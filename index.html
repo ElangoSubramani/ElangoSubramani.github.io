@@ -847,11 +847,12 @@
     <h4 style="text-align:left;"><a style="color:#12d640">Send Message</a><br> </h4>
         <div class="contact__container bd-grid">
             <form onsubmit=sendEmail(); reset(); return false; action="https://formsubmit.co/elangoraj651@gmail.com" method="POST" class="contact__form">
-              <br>
-              <input type="text" name="name" placeholder="Name" class="contact__input" id="Name" required >
-                
-                <input type="email" name="mail" placeholder="Email" class="contact__input" id="Email" required>
-      
+             
+              <div class="col-md-6 mt-4 d-flex align-items-stretch">
+              <input type="text" name="name" placeholder="Name" class="contact__input" id="Name" required ></div>
+                <p></p> <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                <input type="email" name="mail" placeholder="Email" class="contact__input" id="Email" required></div>
+                <p></p>
                 <textarea cols="0" name="message" placeholder="Type your message here..." rows="10" class="contact__input" id="Message" ></textarea>
             
                 <input type="submit" value="Send" class="contact__button button" action="https://formsubmit.co/elangoraj651@gmail.com">
